@@ -24,4 +24,10 @@
 
 .service-page {
     z-index: 1;
+    margin-top: 10%;
+}
+
+.service-page button {
+    background-color: #00eaff;
+    color: black;
 }

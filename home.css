@@ -52,7 +52,7 @@
     position: relative;
 }
 
-#section-contents {
+#row-section > div {
     transition: all 2s ease-in-out;
     transform: translateY(100deg);
 }

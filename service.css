@@ -1,0 +1,27 @@
+.service-top {
+    height: 100vh;
+    background-image: url("https://preview.colorlib.com/theme/foundation2/images/hero_bg_1.jpg.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.service-top::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width:100%;
+    height: 100vh;
+    background-color: #070d59;
+    transition: all 0.5s;
+    opacity: .7;
+
+}
+
+.service-page {
+    z-index: 1;
+}
